@@ -11,3 +11,7 @@ jobs:
         steps:
             -   name: Echo the message
                 run: echo "Hola raul!"
+            -   name: La hora
+                run: date
+            -   name: Directorio
+                run: ls -l
